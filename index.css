@@ -20,6 +20,7 @@ width:500px;
 background-color: rgb(229, 8, 122);
 display:flex;
 justify-content:center;
+align-items:center;
 }
 .inner{
 height:100px;
