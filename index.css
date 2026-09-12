@@ -1,0 +1,28 @@
+ul{
+    background-color: pink;
+    display:flex;
+    justify-content: space-evenly;
+
+
+}
+a{
+    text-decoration:none;
+    color:red;
+    
+}
+li{
+    list-style-type:none;
+    
+}
+.outer{
+height:500px;
+width:500px;
+background-color: rgb(229, 8, 122);
+display:flex;
+justify-content:center;
+}
+.inner{
+height:100px;
+width:100px;
+background-color: rgb(238, 30, 214);
+}
