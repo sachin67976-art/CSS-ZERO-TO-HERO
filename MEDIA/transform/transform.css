@@ -1,0 +1,35 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: rgb(238, 151, 30);
+    border:2px solid rgb(10, 196, 234);
+    position:absolute;
+    top:100px;
+    left:100px;
+   /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function:steps(5);
+    transition-delay: 1s;*/
+   /* transition: all 3s steps(5) 1s; */
+  /* transform: rotate(45deg);
+   transform: scale(1.5);
+   transform: translate(100px, 100px);*/
+  /*  rotate: z 90deg;*/
+  /*transform: scale(2)*/
+  transition:all 2s ease-in 1s;
+
+}
+
+div:hover{
+   /* background-color: rgb(189, 30, 238);
+    border:2px solid rgb(207, 218, 0);
+    font-size: 25px;*/
+    /*transform: scale(2);
+    transform: translate(100px);*/
+    transform: skew(180deg);
+}
+div:active{
+    background-color: rgb(238, 30, 117);
+    border:2px solid rgb(0, 0, 0);
+
+}

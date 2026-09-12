@@ -1,4 +1,4 @@
-ul{
+/*ul{
     background-color: pink;
     display:flex;
     justify-content: space-evenly;
@@ -26,4 +26,24 @@ align-items:center;
 height:100px;
 width:100px;
 background-color: rgb(238, 30, 214);
-}
+}*/
+div{
+        height:100px;
+         width:100px;
+         background-color: rgb(238, 30, 214);
+        }
+        @media(width: 600px){
+            div{
+                background-color: rgb(30, 234, 238);
+            }
+        }
+        @media(min-width:600px){
+            div{
+                background-color: rgb(238, 221, 30);
+            }
+        }
+        @media(min-width:200px) and (max-width:300px){
+            div{
+                background-color: rgb(30, 238, 30);
+            }
+        }

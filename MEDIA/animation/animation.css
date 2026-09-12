@@ -1,0 +1,22 @@
+div{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: red;
+    border: 2px solid rgb(10, 196, 234);
+    position: absolute;
+    top:50px;
+    left:50px;
+    animation-name: coloranimate;
+    animation-duration: 0.25s;
+   /* animation-timing-function: linear;*/
+    animation-delay: 0s;
+    animation-iteration-count:infinite;
+
+
+}
+@keyframes coloranimate{
+    from{left:50px;}
+    to{background-color: rgb(3, 168, 162);}
+}
+ 
