@@ -83,7 +83,10 @@
     border-bottom-right-radius: 5px;
     font-size: 1.2rem;
    }
-   /** box 4
+   .nav-search:hover{
+    box-shadow: 0px 0px 5px 1px #febd69;
+   }
+   /** box 4*/
    span{
     font-size: 0.875rem;
    }
@@ -92,4 +95,67 @@
       font-weight: 600;
 
    }
+   /**box 5*/
+   .nav-cart i{
+      font-size:30px;
+         
+   }
+   .nav-cart{
+      font-size: 0.875rem;
+      font-weight: 600;
+   }
+
+   /**panel*/
+   .panel{
+      height:40px;
+      background-color: #222f3d;
+      display: flex;
+      color: white;
+      align-items: center;
+      justify-content: space-evenly;
+   }
+   .panel-ops p{
+      display: inline;
+      margin-left: 10px;
+   }
+   .panel-ops {
+      width: 70%;
+      font-size: 0.875rem;
+   }
+   .panel-deals{
+      font-weight: 600;
+      font-size: 0.875rem;
+   }
+   /**hero section*/
+   .hero-section{
+      background-image: url("photo-1.jpg");
+      
+       background-size: cover;
+      height: 300px;
+      width: 1000px;
+      display:flex;
+      justify-content:center;
+      align-items:flex-end;
+
+   }
+   .hero-msg{
+      background-color: white;
+      color: black;
+      height:40px;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      font: size 0.85em;
+   
+      margin-bottom :  25px;
+   
+   
+      
+
+   }
+   .hero-msg a {
+      color:#007185;
+   }
+   
+
 
