@@ -156,6 +156,36 @@
    .hero-msg a {
       color:#007185;
    }
+   /** shop section **/
+   .shop-section{
+      dispaly:flex;
+      justify-content:space-evenly;
+   background-color:rgb(233, 184, 215);
+   
+
+   }
+   .box{ 
+      border:2px solid black;
+      height:400px;
+      width:23%;
+      background-color: white;
+      padding: 20px 0px 15px;
+      margin-top:5px;
+       
+      
+   }
+   .box-img{
+      height:300px;
+     
+      
+   
+
+   }
+   .box-content{
+      margin-left: 1rem;
+      margin-right: 1rem;
+   }
+
    
 
 
